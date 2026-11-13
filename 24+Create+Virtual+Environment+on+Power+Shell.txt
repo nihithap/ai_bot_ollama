@@ -1,0 +1,17 @@
+# Create a virtual environment
+python -m venv myenv
+
+# Set execution policy (if needed)
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# Activate the virtual environment
+.\myenv\Scripts\Activate.ps1
+
+
+pip install packages - pip install streamlit crewai langchain-community
+
+streamlit run file.py
+
+
+#Deactivate the virtual environment
+deactivate
